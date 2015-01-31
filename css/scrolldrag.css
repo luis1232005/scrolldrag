@@ -1,0 +1,20 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background:#dfdfdf;
+  margin: 0;
+  padding: 0;
+}
+
+.g-scrolldrag-outer{
+	overflow:scroll;
+	-webkit-overflow-scrolling:touch;
+	height: calc(100% - 44px);
+	margin-top: 44px;
+	background:#f00;
+}
+.g-scrolldrag-inner{
+	height: calc(100% + 1px);
+}
